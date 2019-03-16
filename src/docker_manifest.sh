@@ -7,7 +7,7 @@
 if [ -z "$DOCKER_LOGIN" ] ; then
 	echo "Login docker non trovato nell'environment"
 else
-  cat << EOF > config.json
+  cat << EOF > ~/.docker/config.json
 {
   "experimental": "enabled",
         "auths": {
