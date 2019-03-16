@@ -4,6 +4,8 @@
 [ ! -z "$DEBUG" ] && set -x
 
 
+mkdir -p ~/.docker/
+
 if [ -z "$DOCKER_LOGIN" ] ; then
 	echo "Login docker non trovato nell'environment"
 else
