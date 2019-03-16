@@ -9,3 +9,5 @@ You can find it in your $HOME/.docker/config.json
 ```
 docker run fabrizio2210/docker-ci -e DOCKER_LOGIN='dXNlcjpwYXNzd29yZA=='
 ```
+
+You have to configure webhhok in for the repository target.
